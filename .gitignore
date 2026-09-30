@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+*.log
+.env
+venv/
+build/
+dist/
+.orion.json

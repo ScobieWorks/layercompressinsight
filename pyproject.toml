@@ -1,0 +1,30 @@
+[project]
+name = "layercompressinsight"
+version = "0.1.0"
+description = "Estimate gzip compressibility of Docker-save image layers"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "ScobieWorks" }]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
+
+[project.license]
+file = "LICENSE"
+
+[project.scripts]
+layercompressinsight = "layercompressinsight.main:main"
+
+[project.urls]
+Repository = "https://github.com/ScobieWorks/layercompressinsight"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool]
+
+[tool.setuptools]
+
+[tool.setuptools.packages]
+
+[tool.setuptools.packages.find]
+where = ["src"]
